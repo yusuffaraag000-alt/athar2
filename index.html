@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111111" />
+    <meta
+      name="description"
+      content="ATHAR — ملابس بتصميم بسيط وهوية واضحة. اكتشف أحدث القطع والمجموعات."
+    />
+    <title>أثــر | ATHAR — Wear Your Impact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="lock">
+    <div class="intro" id="intro" aria-hidden="true">
+      <div class="intro-word">ATHAR<span>.</span></div>
+    </div>
+    <header id="header">
+      <div class="nav container">
+        <a class="brand" href="#home" aria-label="ATHAR home"
+          >ATHAR<small>WEAR YOUR IMPACT</small></a
+        >
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#categories">المجموعات</a></li>
+          <li><a href="#shop">تسوّق</a></li>
+          <li><a href="#story">قصتنا</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="cart-button" id="openCart" aria-label="فتح سلة التسوق">
+            السلة <span class="cart-count" id="cartCount">0</span>
+          </button>
+          <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="فتح القائمة"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="hero-content">
+            <div class="eyebrow">DESIGNED TO STAND OUT</div>
+            <h1>اترك<br />أثــرك<span>WEAR YOUR IMPACT</span></h1>
+            <p>
+              مش مجرد قطعة ملابس؛ دي مساحة تعبّر فيها عن نفسك. تصاميم بسيطة،
+              تفاصيل محسوبة، وهوية تفضل حاضرة.
+            </p>
+            <div class="hero-ctas">
+              <a class="btn" href="#shop">اكتشف المنتجات <span>←</span></a
+              ><a class="btn outline" href="#story">اعرف حكايتنا</a>
+            </div>
+            <div class="scroll-cue">SCROLL TO EXPLORE</div>
+          </div>
+        </div>
+        <div class="hero-meta">ATHAR / COLLECTION 001</div>
+      </section>
+
+      <section class="trust" aria-label="مميزات التسوق">
+        <div class="trust-inner container">
+          <div class="trust-item"><b>01</b><span>تصميم بهوية مميزة</span></div>
+          <div class="trust-item">
+            <b>02</b><span>تفاصيل وجودة نهتم بها</span>
+          </div>
+          <div class="trust-item">
+            <b>03</b><span>تواصل سهل لتأكيد الطلب</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories container" id="categories">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">FIND YOUR STYLE</div>
+            <h2>اكتشف المجموعات</h2>
+          </div>
+          <p>
+            اختار المجموعة الأقرب لأسلوبك، واستكشف القطع المصممة لتكمل حضورك.
+          </p>
+        </div>
+        <div class="category-grid">
+          <a class="category reveal" href="#shop" data-filter-link="men"
+            ><img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=900&q=80"
+              alt="ملابس رجالية"
+            />
+            <div class="category-content">
+              <small>COLLECTION 01</small>
+              <h3>رجالي</h3>
+              <span>اكتشف المجموعة ←</span>
+            </div></a
+          >
+          <a class="category reveal" href="#shop" data-filter-link="women"
+            ><img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80"
+              alt="ملابس نسائية"
+            />
+            <div class="category-content">
+              <small>COLLECTION 02</small>
+              <h3>نسائي</h3>
+              <span>اكتشف المجموعة ←</span>
+            </div></a
+          >
+          <a class="category reveal" href="#shop" data-filter-link="unisex"
+            ><img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80"
+              alt="تيشيرتات"
+            />
+            <div class="category-content">
+              <small>COLLECTION 03</small>
+              <h3>يونيسكس</h3>
+              <span>اكتشف المجموعة ←</span>
+            </div></a
+          >
+        </div>
+      </section>
+
+      <section class="shop" id="shop">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <div class="eyebrow">THE LATEST DROP</div>
+              <h2>اختياراتنا لك</h2>
+            </div>
+            <p>
+              دي منتجات تجريبية لتوضيح شكل المتجر. غيّر الصور والأسعار والأسماء
+              لمنتجاتك الحقيقية قبل النشر.
+            </p>
+          </div>
+          <div class="product-tools" role="group" aria-label="فلترة المنتجات">
+            <button class="filter active" data-filter="all">كل المنتجات</button
+            ><button class="filter" data-filter="men">رجالي</button
+            ><button class="filter" data-filter="women">نسائي</button
+            ><button class="filter" data-filter="unisex">يونيسكس</button>
+          </div>
+          <div class="products" id="products">
+            <article
+              class="product reveal"
+              data-category="men"
+              data-id="athar-tee-black"
+              data-name="تيشيرت ATHAR أسود"
+              data-price="450"
+              data-image="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80"
+            >
+              <div class="product-image">
+                <img
+                  loading="lazy"
+                  src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80"
+                  alt="تيشيرت أسود - صورة تجريبية"
+                /><span class="product-tag">الأكثر طلبًا</span
+                ><button class="quick-add add-to-cart">أضف إلى السلة +</button>
+              </div>
+              <div class="product-info">
+                <h3>تيشيرت ATHAR أسود</h3>
+                <p>قطن يومي • قصة مريحة</p>
+                <div class="product-bottom">
+                  <span class="price">450 EGP</span>
+                  <div class="swatches">
+                    <i class="swatch black"></i><i class="swatch cream"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article
+              class="product reveal"
+              data-category="women"
+              data-id="athar-tee-cream"
+              data-name="تيشيرت ATHAR أوف وايت"
+              data-price="480"
+              data-image="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80"
+            >
+              <div class="product-image">
+                <img
+                  loading="lazy"
+                  src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80"
+                  alt="تيشيرت أوف وايت - صورة تجريبية"
+                /><span class="product-tag">NEW DROP</span
+                ><button class="quick-add add-to-cart">أضف إلى السلة +</button>
+              </div>
+              <div class="product-info">
+                <h3>تيشيرت ATHAR أوف وايت</h3>
+                <p>ملمس ناعم • تصميم بسيط</p>
+                <div class="product-bottom">
+                  <span class="price">480 EGP</span>
+                  <div class="swatches">
+                    <i class="swatch cream"></i><i class="swatch grey"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article
+              class="product reveal"
+              data-category="unisex"
+              data-id="athar-oversized"
+              data-name="تيشيرت Oversized"
+              data-price="520"
+              data-image="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80"
+            >
+              <div class="product-image">
+                <img
+                  loading="lazy"
+                  src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80"
+                  alt="ملابس بقصة واسعة - صورة تجريبية"
+                /><button class="quick-add add-to-cart">أضف إلى السلة +</button>
+              </div>
+              <div class="product-info">
+                <h3>تيشيرت Oversized</h3>
+                <p>قصة واسعة • Unisex</p>
+                <div class="product-bottom">
+                  <span class="price">520 EGP</span>
+                  <div class="swatches">
+                    <i class="swatch black"></i><i class="swatch grey"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article
+              class="product reveal"
+              data-category="men"
+              data-id="athar-basic"
+              data-name="تيشيرت Essential"
+              data-price="390"
+              data-image="https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=700&q=80"
+            >
+              <div class="product-image">
+                <img
+                  loading="lazy"
+                  src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=700&q=80"
+                  alt="تيشيرت أساسي - صورة تجريبية"
+                /><span class="product-tag">ESSENTIAL</span
+                ><button class="quick-add add-to-cart">أضف إلى السلة +</button>
+              </div>
+              <div class="product-info">
+                <h3>تيشيرت Essential</h3>
+                <p>أساسيات خزانة ملابسك</p>
+                <div class="product-bottom">
+                  <span class="price">390 EGP</span>
+                  <div class="swatches">
+                    <i class="swatch black"></i><i class="swatch cream"></i
+                    ><i class="swatch grey"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story container" id="story">
+        <div class="story-image reveal">
+          <img
+            loading="lazy"
+            src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=85"
+            alt="لقطة أزياء بطابع بسيط"
+          />
+        </div>
+        <div class="story-copy reveal">
+          <div class="eyebrow">MORE THAN WHAT YOU WEAR</div>
+          <h2>كل تفصيلة<br />ليها أثر.</h2>
+          <p>
+            في ATHAR بنؤمن إن البساطة مش معناها إنك تكون عادي. بنصمم قطع تساعدك
+            تعبّر عن شخصيتك من غير مبالغة؛ خطوط واضحة، اختيارات مدروسة، وحضور
+            يفضل في الذاكرة.
+          </p>
+          <a class="btn outline" href="#shop">اختار قطعتك</a>
+          <div class="story-mark">ATHAR.</div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container newsletter-inner">
+          <div>
+            <div class="eyebrow">STAY IN THE LOOP</div>
+            <h2>خليك أول من يعرف</h2>
+            <p>سجّل بريدك للاطلاع على المجموعات الجديدة والعروض.</p>
+          </div>
+          <form class="newsletter-form" id="newsletterForm">
+            <input
+              type="email"
+              id="emailInput"
+              placeholder="بريدك الإلكتروني"
+              aria-label="بريدك الإلكتروني"
+              required
+            /><button class="btn" type="submit">اشترك</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a class="brand" href="#home"
+              >ATHAR<small>WEAR YOUR IMPACT</small></a
+            >
+            <p>ملابس بتصميم بسيط وهوية واضحة. اختار القطعة اللي تعبّر عنك.</p>
+          </div>
+          <div class="footer-col">
+            <h3>روابط سريعة</h3>
+            <a href="#shop">تسوّق المنتجات</a><a href="#categories">المجموعات</a
+            ><a href="#story">عن ATHAR</a>
+          </div>
+          <div class="footer-col">
+            <h3>خدمة العملاء</h3>
+            <a href="#shipping">الشحن والاستبدال</a
+            ><a href="#contact" id="contactLink">تواصل معنا</a
+            ><a href="#privacy">سياسة الخصوصية</a>
+          </div>
+        </div>
+        <div class="copyright">
+          <span>© 2026 ATHAR. ALL RIGHTS RESERVED.</span
+          ><span>MADE WITH PURPOSE.</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="scrim" id="scrim"></div>
+    <aside
+      class="cart-drawer"
+      id="cartDrawer"
+      aria-label="سلة التسوق"
+      aria-hidden="true"
+    >
+      <div class="cart-head">
+        <h2>سلة التسوق <span id="cartTitleCount">(0)</span></h2>
+        <button class="icon-btn" id="closeCart" aria-label="إغلاق السلة">
+          ×
+        </button>
+      </div>
+      <div class="cart-items" id="cartItems">
+        <p style="color: #777; font-size: 13px">لسه ما أضفتش أي منتجات.</p>
+      </div>
+      <div class="cart-foot">
+        <div class="subtotal">
+          <span>الإجمالي</span><span id="cartSubtotal">0 EGP</span>
+        </div>
+        <button class="btn" id="checkoutBtn">إتمام الطلب عبر واتساب</button
+        ><small
+          >هيتم فتح واتساب برسالة فيها تفاصيل طلبك. راجع بيانات التواصل قبل نشر
+          المتجر.</small
+        >
+      </div>
+    </aside>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+   <script src="script.js"></script>
+  </body>
+</html>
